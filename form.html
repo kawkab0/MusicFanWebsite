@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fan Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="form.html">
+    <button>Go to Form</button>
+</a>
+<header>
+    <h1>Music Fan Registration</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="form.html">Fan Registration</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section>
+
+<form id="fanForm">
+
+<label>Full Name:</label>
+<input type="text" id="name" required>
+
+<label>Age:</label>
+<input type="number" id="age" required>
+
+<label>Email:</label>
+<input type="email" id="email" required>
+
+<label>Favorite Artist:</label>
+<input type="text" id="artist">
+
+<label>Favorite Music Genre:</label>
+
+<select id="genre">
+<option>Pop</option>
+<option>Hip Hop</option>
+<option>R&B</option>
+<option>Rock</option>
+<option>Jazz</option>
+<option>Classical</option>
+</select>
+
+<label>Why do you love music?</label>
+
+<textarea id="reason"></textarea>
+
+<button type="submit">
+Submit
+</button>
+
+</form>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
