@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Fan Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="form.html">Form</a>
+</nav>
+<header>
+
+    <h1>🎵 Music Fan Club 🎵</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="form.html">Fan Registration</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <button onclick="toggleDarkMode()" id="darkBtn">
+        Toggle Dark Mode
+    </button>
+
+</header>
+
+<section class="hero">
+
+    <img
+    src="images/skeletons-and-skaletons.jpg"
+    alt="Banner"
+    class="banner">
+
+    <div class="hero-text">
+
+        <h2>Welcome Music Lovers!</h2>
+
+        <p>
+            Discover artists, explore albums,
+            vote for your favorites and enjoy
+            a collection of hand-picked music recommendations.
+        </p>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>Featured Albums & Artists</h2>
+
+    <div class="gallery">
+
+        <div class="gallery-item">
+
+            <img
+            src="images/skeletons-and-skaletons.jpg"
+            alt="Skeletons and Skaletons">
+
+            <h3>Skeletons and Skaletons</h3>
+
+        </div>
+
+        <div class="gallery-item">
+
+            <img
+            src="images/muse-hysteria.jpg"
+            alt="Muse Hysteria">
+
+            <h3>Muse - Hysteria</h3>
+
+        </div>
+
+    </div>
+
+</section>
+
+  <section>
+<section>
+
+<h2>🎧 Developer Personal Recommendations</h2>
+
+<div class="recommendation-container">
+
+    <div class="recommendation-card">
+
+        <h3>🎵 Skeletons and Skaletons</h3>
+
+        <p><strong>Genre:</strong> Alternative Rock</p>
+
+        <p>
+            A powerful blend of emotion,
+            energy and memorable melodies.
+        </p>
+
+        <a href="https://youtu.be/TtSyDjJrreo"
+        target="_blank">
+        ▶ Listen Now
+        </a>
+
+    </div>
+
+    <div class="recommendation-card">
+
+        <h3>🎸 Muse - Hysteria</h3>
+
+        <p><strong>Genre:</strong> Rock</p>
+
+        <p>
+            Famous for its iconic bassline
+            and explosive performance.
+        </p>
+
+        <a href="https://youtu.be/04PK6uIfae0"
+        target="_blank">
+        ▶ Listen Now
+        </a>
+
+    </div>
+
+    <div class="recommendation-card">
+
+        <h3>🎤 Recommendation #3</h3>
+
+        <p><strong>Genre:</strong> Alternative</p>
+
+        <p>
+            A great choice for fans of
+            atmospheric and emotional music.
+        </p>
+
+        <a href="https://youtu.be/Z0NGdLr4img"
+        target="_blank">
+        ▶ Listen Now
+        </a>
+
+    </div>
+
+    <div class="recommendation-card">
+
+        <h3>🎹 Recommendation #4</h3>
+
+        <p><strong>Genre:</strong> Rock</p>
+
+        <p>
+            Strong instrumentals and
+            unforgettable vocals.
+        </p>
+
+        <a href="https://youtu.be/Xsp3_a-PMTw"
+        target="_blank">
+        ▶ Listen Now
+        </a>
+
+    </div>
+
+    <div class="recommendation-card">
+
+        <h3>🥁 Recommendation #5</h3>
+
+        <p><strong>Genre:</strong> Alternative Rock</p>
+
+        <p>
+            Perfect for listeners who enjoy
+            energetic and dynamic tracks.
+        </p>
+
+        <a href="https://youtu.be/EVLaJtg8xIU"
+        target="_blank">
+        ▶ Listen Now
+        </a>
+
+    </div>
+
+    <div class="recommendation-card">
+
+        <h3>🎧 Recommendation #6</h3>
+
+        <p><strong>Genre:</strong> Rock</p>
+
+        <p>
+            A fan favorite with a unique
+            musical atmosphere.
+        </p>
+
+        <a href="https://youtu.be/Sk2Qd13GA7g"
+        target="_blank">
+        ▶ Listen Now
+        </a>
+
+    </div>
+
+    <div class="recommendation-card">
+
+        <h3>⭐ Recommendation #7</h3>
+
+        <p><strong>Genre:</strong> Must Listen</p>
+
+        <p>
+            One of my personal favorites
+            and highly recommended.
+        </p>
+
+        <a href="https://youtu.be/J5G0GC3s3cM"
+        target="_blank">
+        ▶ Listen Now
+        </a>
+
+    </div>
+
+</div>
+
+</section>
+
+
+    <h2>Favorite Artist Poll</h2>
+
+    <select id="artistVote">
+
+        <option value="">Choose Artist</option>
+
+        <option>Taylor Swift</option>
+        <option>Drake</option>
+        <option>The Weeknd</option>
+        <option>Ariana Grande</option>
+        <option>Billie Eilish</option>
+
+    </select>
+
+    <br><br>
+
+    <button onclick="voteArtist()">
+        Vote
+    </button>
+
+    <p id="voteResult"></p>
+
+</section>
+
+<footer>
+
+    <p>Music Fan Club © 2026</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
